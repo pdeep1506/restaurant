@@ -39,11 +39,11 @@ const Navbar = () => {
 
             <MdOutlineRestaurantMenu fontSize={27} className='overlay_close' onClick={()=>settoggleMenu(false)}></MdOutlineRestaurantMenu>
             <ul className='app__navbar-smallscreen-links'>
-            <li className='p__opensans'><a href='#home'>Home</a></li>
-            <li className='p__opensans'><a href='#about'>About</a></li>
-            <li className='p__opensans'><a href='#menu'>Menu</a></li>
-            <li className='p__opensans'><a href='#awards'>Awards</a></li>
-            <li className='p__opensans'><a href='#contact'>Contact</a></li>
+            <li className='p__opensans'><a href='#home' onClick={()=>settoggleMenu(false)}>Home</a></li>
+            <li className='p__opensans'><a href='#about' onClick={()=>settoggleMenu(false)}>About</a></li>
+            <li className='p__opensans'><a href='#menu' onClick={()=>settoggleMenu(false)}>Menu</a></li>
+            <li className='p__opensans'><a href='#awards' onClick={()=>settoggleMenu(false)}>Awards</a></li>
+            <li className='p__opensans'><a href='#contact' onClick={()=>settoggleMenu(false)}>Contact</a></li>
 
        </ul>
           </div>
